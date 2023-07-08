@@ -14,8 +14,101 @@
     --cor5: #24275C;
 }
 
+body {
+    background-color: var(--cor0);
+}
+
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    position: relative;
+    background-color: black;    
     height: 100px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.432);
+}
+
+img {    
+    height: 110px;
+    width: 110px;
+}
+
+header > span {
+    position: absolute;
+    color: white;
+    right: 30px;
+    top: 70px;
+    
+    
+}
+
+section {
+    position: relative;
+    
+}
+
+section.pesquisar {
+    margin: auto;
+    background-color: white;   
+    border-bottom: 5px solid rgb(182, 182, 182);   
+    
+    
+}
+
+section.pesquisar > h1 {    
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+div {
+    text-align: right;
+    margin-right: 10px;    
+}
+
+
+
+input {
+    border: 1px solid var(--cor5);
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;    
+    margin-bottom: 20px;
+}
+
+input#icursos {
+    width: 300px;
+}
+
+input.lupa {
+    height: 30px;
+    width: 30px;
+}
+
+section#pratica {
+    position: relative;
+    margin: auto;
+    background-color: white;       
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.432);
+}
+
+section#pratica h1 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.img { 
+    position: absolute;   
+    background: url(../imagens/designer-pratica.png) no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    
+    
+    
+}
+
+div.cursos > a {
+    background-color: #141EDB;
+    text-align: right;
+    text-decoration: none;
+    height: 50px;
 }
