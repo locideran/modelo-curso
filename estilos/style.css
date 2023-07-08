@@ -1,0 +1,21 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #6068f5;
+    --cor1: #585FE1;
+    --cor2: #141EDB;
+    --cor3: #0F17A8;
+    --cor4: #080C5C;
+    --cor5: #24275C;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    height: 100px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.432);
+}
