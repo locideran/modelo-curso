@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #6068f5;
+    --cor1: #585FE1;
+    --cor2: #141EDB;
+    --cor3: #0F17A8;
+    --cor4: #080C5C;
+    --cor5: #24275C;
+}
+
+
+body { 
+    width: 90vw;
+    background-color: var(--cor5);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;    
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+div.video {
+    background-color: var(--cor5);    
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;    
+    
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+    height: 90%;
+}
+
+p {
+    padding-left: 10px;
+}
+
+a {    
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.459);
+}
+
+a:hover {
+    background-color: #585FE1;
+    color: white;
+    border: 1px solid white;
+}

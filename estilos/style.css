@@ -56,7 +56,7 @@ section.pesquisar > h1 {
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
-    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
 }
 
 div {
@@ -83,13 +83,18 @@ input.lupa {
     width: 30px;
 }
 
+section {
+    text-align: justify;
+    margin: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+
 section#pratica {  
     position: relative;  
     margin: auto;
-    margin-top: 30px;
-    padding-left: 10px;
+    margin-top: 30px;    
     background-color: white; 
-    height: 150px;    
+    height: 300px;    
     border: 1px solid var(--cor0);   
 }
 
@@ -97,29 +102,54 @@ section#pratica h2 {
     font-size: 1.2em;
 }
 
-div.img { 
+div.img {     
     position: absolute;           
     background: url(../imagens/designer-pratica.png) no-repeat center bottom;
     background-size: cover;
+    left: 20px;
+    height: 60%;
+    width: 90vw;  
+    border-radius: 10px 10px 0px 0px;  
     
-    height: 100%;
-    width: 60%;  
-    border-radius: 10px 0px 0px 10px;  
 }
 
-
-
-div.info {    
-    text-align: center;
+div.info {      
     position: absolute;    
-    width: 40%;
-    background-color: rgb(190, 190, 190);
-    height: 100%;
-    right: 5px;
-    border-radius: 0px 10px 10px 0px;       
+    width: 90vw;
+    background-color: var(--cor5);
+    height: 40%;
+    left: 20px;
+    border-radius: 0px 0px 10px 10px;    
+    bottom: 0px;  
+    color: white;     
 }
 
-div.info > input {       
+div.info > h3 {
+    padding: 10px;
+    text-align: start;
+}
+
+div.info > p {
+    padding-left: 20px;
+    text-align: start;
+}
+
+div.info > a {   
+    text-align: center;
+    border-radius: 20px;  
+    background-color: white;
+    color: #080C5C;
+    text-decoration: none;
+    position: absolute; 
+    padding: 5px; 
     width: 100px;
-    
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.425);
+}
+
+div.info > a:hover{
+    background-color: var(--cor1);
+    color: white;
+    border: 1px solid white;    
 }
