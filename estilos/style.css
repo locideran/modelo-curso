@@ -89,20 +89,20 @@ section {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
 }
 
-section#pratica {  
+section.cursos {  
     position: relative;  
     margin: auto;
     margin-top: 30px;    
     background-color: white; 
     height: 300px;    
-    border: 1px solid var(--cor0);   
+       
 }
 
-section#pratica h2 {
+section.cursos h3 {
     font-size: 1.2em;
 }
 
-div.img {     
+div#pratica {     
     position: absolute;           
     background: url(../imagens/designer-pratica.png) no-repeat center bottom;
     background-size: cover;
@@ -111,6 +111,26 @@ div.img {
     width: 90vw;  
     border-radius: 10px 10px 0px 0px;  
     
+}
+
+div#canva {
+    position: absolute;           
+    background: url(../imagens/canva.png) no-repeat center center;
+    background-size: cover;
+    left: 20px;
+    height: 60%;
+    width: 90vw;  
+    border-radius: 10px 10px 0px 0px;
+}
+
+div#cachos {
+    position: absolute;           
+    background: url(../imagens/cachos.png) no-repeat top  center;
+    background-size: cover;
+    left: 20px;
+    height: 60%;
+    width: 90vw;  
+    border-radius: 10px 10px 0px 0px;
 }
 
 div.info {      

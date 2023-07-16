@@ -22,6 +22,10 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
 }
 
+p {
+    color: white;
+}
+
 div.video {
     background-color: var(--cor5);    
     margin: 0px -20px 30px -20px;
@@ -35,7 +39,7 @@ div.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 95%;
+    width: 90%;
     height: 90%;
 }
 
